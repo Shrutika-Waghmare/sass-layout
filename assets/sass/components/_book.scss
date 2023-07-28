@@ -1,0 +1,91 @@
+.section-book{
+    padding: 10rem;
+    .container{
+        max-width: 150rem;
+        margin: 0 auto;
+        .col-12{
+            width: 100%;
+            .book{
+                width: 100%;
+                background-image:linear-gradient(110deg, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../images/nat-10.jpg);
+                background-position: center;
+                background-size: cover;
+                .book-form{
+                    .form-group:not(:last-child) {
+                        margin-bottom: 3rem;
+                    }
+
+                    
+
+                    .form-control {
+                        width: 90%;
+                        display: block;
+                        padding: 1.5rem;
+                        color: inherit;
+                        font-family: inherit;
+                        border-radius: 0.2rem;
+                        border: none;
+                        border-bottom: .3rem solid transparent;
+                        outline: none;
+                        transition: all 0.3s;
+                    }
+                    .form-label{
+                        display: none;
+                    }
+
+                    .form-radio{
+                        .form-radio-group{
+                            width: 49%;
+                            display: inline-block;
+                            
+                            .form-radio-label{
+                                font-size: 1.6rem;
+                                cursor: pointer;
+                                position: relative;
+                                padding-left: 1.5rem;
+
+                                .form-radio-btn {
+                                    width: 3rem;
+                                    height: 3rem;
+                                    border-radius: 50%;
+                                    border: 0.5rem solid #55c57a;
+                                    display: inline-block;
+                                    position: absolute;
+                                    left: -24px;
+                                    top: -.5rem;
+                                }
+
+                                .form-radio-btn::after {
+                                    display:inline-block;
+                                    content: '';
+                                    height: 1.3rem;
+                                    width: 1.3rem;
+                                    border-radius: 50%;
+                                    background-color: #55c57a;
+                                    position: absolute;
+                                    top: 50%;
+                                    left: 50%;
+                                    transform: translate(-50%, -50%);
+                                    opacity: 0;
+                                }
+                            }
+
+                            
+                           
+
+                            
+                        }
+                    }
+                    .btn-next{
+                        margin-bottom: 5rem;
+                    }
+                }
+                
+            }
+        }
+        
+    }
+}
+
+
+
